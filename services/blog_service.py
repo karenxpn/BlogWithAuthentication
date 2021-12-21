@@ -28,7 +28,6 @@ class BlogService:
         post.title = form.title.data
         post.subtitle = form.subtitle.data
         post.img_url = form.img_url.data
-        post.author = form.author.data
         post.body = form.body.data
         db.session.commit()
 
